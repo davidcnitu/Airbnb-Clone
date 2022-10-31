@@ -14,6 +14,14 @@ nav {
   box-shadow: 0px 3px 7.5px rgba(0, 0, 0, 0.1);
 }
 
+.grey {
+  color: #918E9B
+}
+
+.bold {
+  font-weight: bold;
+}
+
 .nav--logo {
   max-width: 100px;
 }
@@ -30,7 +38,7 @@ section {
 .hero--img_container {
   display: flex;
   align-self: center;
-  max-width: 1000px;
+  max-width: 1720px;
 }
 
 .hero--photo {
@@ -44,4 +52,23 @@ section {
 
 .hero--text {
   margin-top: 0;
+}
+
+.card {
+  width: 175px;
+  font-size: 12px;
+}
+
+.card--image {
+  width: 100%;
+  border-radius: 9px;
+}
+
+.card-stats {
+  display: flex;
+  align-items: center;
+}
+
+.card--star {
+  height: 14px;
 }
